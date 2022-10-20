@@ -14,6 +14,7 @@
 /*todo HTML Tags */
 body{
     font-family: 'Lato' , sans-serif;
+    font-size: 14px;
 }
 
 a{
@@ -27,7 +28,7 @@ ul{
 button{
     border: none;
     text-decoration: none;
-    border-radius: 0.3rem;
+    border-radius: 0.3em;
 }
 
 
@@ -35,6 +36,11 @@ button{
 /*todo Classes */
 .flex{
     display: flex;
+}
+
+.flex-centered{
+    justify-content: center;
+    align-items: center;
 }
 
 .p_relative{
@@ -53,8 +59,8 @@ button{
     background-color: black;
 }
 
-.bg-color_black-opacity{
-    background-color: rgba(0, 0, 0, 0.85);
+.bg-color_light-black{
+    background-color: #222222;
 }
 
 .bg-color_dark-grey{
@@ -82,38 +88,61 @@ button{
 /** SPECIFIC STYLE INFORMATIONS */
 
 /*todo Header Section */
+header{
+    height: 3vh;
+}
+
 header.flex{
     justify-content: end;
     align-items: center;
 }
 
 header .task{
-    font-size: 0.9rem;
-    padding: 0.3rem;
+    font-size: 0.8em;
+    padding: 0.3em;
 }
 
 header .task{
-    margin: 0.3rem;
+    margin: 0.3em;
 }
 
 header .task:last-of-type{
-    margin-right: 0.1rem;
+    margin-right: 0.1em;
 }
 
 
 
 /*todo Main Section */
 main{
-    min-width: 10rem;
+    padding: 3em 0 2em;
 }
+
+main.flex{
+    flex-wrap: wrap;
+}
+
 main .partecipant{
-    display: inline-block;
     background-image: url('https://picsum.photos/400/200');
-    min-height: 9rem;
-    min-width: 15rem;
+    height: 110px;
+    width: 190px;
+    margin:0 5px 5px 0;
 }
 
 main .partecipant-infos.p_absolute{
     left: 0;
     bottom: 1px;
+}
+
+
+
+/*todo Footer Section */
+footer{
+    height: 70px;
+}
+
+footer.p_fixed{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
 }
