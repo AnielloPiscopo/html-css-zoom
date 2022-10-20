@@ -87,3 +87,6 @@ header .task:last-of-type{
 
 
 /*todo Main Section */
+main .partecipant{
+    background-image: url('https://picsum.photos/200/300');
+}
