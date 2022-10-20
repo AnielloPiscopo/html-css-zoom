@@ -1,0 +1,39 @@
+/** GENERIC STYLE INFORMATIONS */
+
+/*todo Universal Selector */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*todo HTML Tags */
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+/*todo Classes */
+
+
+
+/*todo Combinations */
+
+
+
+
+
+/** SPECIFIC STYLE INFORMATIONS */
+
+/*todo Header Section */
