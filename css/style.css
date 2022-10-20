@@ -13,7 +13,7 @@
 
 /*todo HTML Tags */
 body{
-    font-family: sans-serif;
+    font-family: 'Lato' , sans-serif;
 }
 
 a{
@@ -35,6 +35,18 @@ button{
 /*todo Classes */
 .flex{
     display: flex;
+}
+
+.p_relative{
+    position: relative;
+}
+
+.p_absolute{
+    position: absolute;
+}
+
+.p_fixed{
+    position: fixed;
 }
 
 .bg-color_black{
@@ -88,5 +100,7 @@ header .task:last-of-type{
 
 /*todo Main Section */
 main .partecipant{
+    display: inline-block;
     background-image: url('https://picsum.photos/200/300');
+    width: 3.5rem;
 }
