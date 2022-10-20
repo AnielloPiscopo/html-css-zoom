@@ -12,6 +12,7 @@
 /*todo HTML Tags */
 body{
     font-family: sans-serif;
+    height: 100vh;
 }
 
 a{
@@ -25,6 +26,9 @@ ul{
 
 
 /*todo Classes */
+.bg-color_black{
+    background-color: rgba(0, 0,0, 0.85);
+}
 
 
 
