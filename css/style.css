@@ -90,6 +90,7 @@ button{
 /*todo Header Section */
 header{
     height: 3vh;
+    padding-top: 0.3em;
 }
 
 header.flex{
@@ -100,10 +101,7 @@ header.flex{
 header .task{
     font-size: 0.8em;
     padding: 0.3em;
-}
-
-header .task{
-    margin: 0.3em;
+    margin: 0.5em;
 }
 
 header .task:last-of-type{
