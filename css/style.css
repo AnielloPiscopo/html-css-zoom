@@ -1,3 +1,5 @@
+/*! Momentanel styles */
+
 /** GENERIC STYLE INFORMATIONS */
 
 /*todo Universal Selector */
@@ -12,7 +14,6 @@
 /*todo HTML Tags */
 body{
     font-family: sans-serif;
-    height: 100vh;
 }
 
 a{
@@ -26,8 +27,25 @@ ul{
 
 
 /*todo Classes */
+.container{
+    width: 94.3%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
 .bg-color_black{
+    background-color: black;
+}
+
+.bg-color_black-opacity{
     background-color: rgba(0, 0,0, 0.85);
+}
+
+.color_white{
+    color: white;
 }
 
 
@@ -41,3 +59,14 @@ ul{
 /** SPECIFIC STYLE INFORMATIONS */
 
 /*todo Header Section */
+header.flex{
+    justify-content: end;
+}
+
+header .task{
+    font-size: 0.7rem;
+}
+
+
+
+/*todo Main Section */
