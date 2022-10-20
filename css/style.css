@@ -24,14 +24,14 @@ ul{
     list-style: none;
 }
 
+button{
+    border: none;
+    text-decoration: none;
+}
+
 
 
 /*todo Classes */
-.container{
-    width: 94.3%;
-    margin: 0 auto;
-}
-
 .flex{
     display: flex;
 }
@@ -41,7 +41,11 @@ ul{
 }
 
 .bg-color_black-opacity{
-    background-color: rgba(0, 0,0, 0.85);
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.bg-color_dark-grey{
+    background-color: #49494a;
 }
 
 .color_white{
@@ -51,7 +55,9 @@ ul{
 
 
 /*todo Combinations */
-
+.color_white button{
+    color: white;
+}
 
 
 
@@ -61,10 +67,20 @@ ul{
 /*todo Header Section */
 header.flex{
     justify-content: end;
+    align-items: center;
 }
 
 header .task{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+}
+
+header .task{
+    margin: 0.3rem;
+}
+
+header .task:last-of-type{
+    margin-right: 0.1rem;
 }
 
 
