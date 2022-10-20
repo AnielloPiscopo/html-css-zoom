@@ -61,6 +61,10 @@ button{
     background-color: #49494a;
 }
 
+.bg-color_grey-opacity{
+    background-color: rgba(126, 125, 125, 0.9);
+}
+
 .color_white{
     color: white;
 }
@@ -99,8 +103,17 @@ header .task:last-of-type{
 
 
 /*todo Main Section */
+main{
+    min-width: 10rem;
+}
 main .partecipant{
     display: inline-block;
-    background-image: url('https://picsum.photos/200/300');
-    width: 3.5rem;
+    background-image: url('https://picsum.photos/400/200');
+    min-height: 9rem;
+    min-width: 15rem;
+}
+
+main .partecipant-infos.p_absolute{
+    left: 0;
+    bottom: 1px;
 }
