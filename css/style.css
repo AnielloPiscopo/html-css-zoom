@@ -1,5 +1,8 @@
-/*! Momentanel styles */
-
+header div{
+    background-color: aqua;
+    width: 5em;
+    height: 100%;
+}
 /** GENERIC STYLE INFORMATIONS */
 
 /*todo Universal Selector */
@@ -15,6 +18,8 @@
 body{
     font-family: 'Lato' , sans-serif;
     font-size: 14px;
+    overflow-y: hidden;
+    min-width: 700px;
 }
 
 a{
@@ -84,38 +89,60 @@ button{
 
 
 
-
 /** SPECIFIC STYLE INFORMATIONS */
 
 /*todo Header Section */
 header{
-    height: 3vh;
-    padding-top: 0.3em;
+    height: 60px;
+}
+
+header.p_fixed{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
 }
 
 header.flex{
-    justify-content: end;
-    align-items: center;
-}
-
-header .task{
-    font-size: 0.8em;
-    padding: 0.3em;
-    margin: 0.5em;
-}
-
-header .task:last-of-type{
-    margin-right: 0.1em;
+    justify-content: space-between;
 }
 
 
 
 /*todo Main Section */
-main{
-    padding: 3em 0 2em;
+header.p_fixed + main{
+    padding-bottom: 3em;
 }
 
-main.flex{
+
+/* Btns-container */
+main .btns-container{
+    padding-top: 0.3em;
+}
+
+main .btns-container.flex{
+    justify-content: end;
+    align-items: center;
+}
+
+main .btns-container .task{
+    font-size: 0.8em;
+    padding: 0.3em;
+    margin: 0.5em;
+}
+
+main .btns-container .task:last-of-type{
+    margin-right: 0.1em;
+}
+
+
+/* Partecipants */
+#partecipants{
+    padding: 1.9em 0 2em;
+    overflow-y: auto;
+}
+
+#partecipants.flex{
     flex-wrap: wrap;
 }
 
@@ -123,24 +150,10 @@ main .partecipant{
     background-image: url('https://picsum.photos/400/200');
     height: 110px;
     width: 190px;
-    margin:0 5px 5px 0;
+    margin:0 5px 10px 0;
 }
 
 main .partecipant-infos.p_absolute{
     left: 0;
     bottom: 1px;
-}
-
-
-
-/*todo Footer Section */
-footer{
-    height: 70px;
-}
-
-footer.p_fixed{
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 3;
 }
