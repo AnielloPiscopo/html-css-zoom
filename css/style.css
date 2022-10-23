@@ -79,6 +79,9 @@ button{
     color: red;
 }
 
+
+
+/*? Combinations */
 .task,
 button{
     font-size: 0.8em;
@@ -87,8 +90,17 @@ button{
 
 .task:hover,
 button:hover{
-    background-color: #646465;
+    background-color: #5b5b5d;
     border-radius: 10%;
+}
+
+.task:active,
+button:active{
+    background-color: #78787b;
+}
+
+i.d_none{
+    display: none;
 }
 
 
@@ -128,6 +140,14 @@ header .task.active .icon{
 header .task .icon:not(header .more-options .icon){
     font-size: 2.3em;
     padding-bottom: 5px;
+}
+
+header .task:active .d_block{
+    display: none;
+}
+
+header .task:active .d_block + .d_none{
+    display: block;
 }
 
 #end-call-btn{
@@ -186,4 +206,11 @@ main .partecipant{
 main .partecipant-infos.p_absolute{
     left: 0;
     bottom: 1px;
+}
+
+
+/* Personal account */
+#personal-account{
+    bottom: 65px;
+    left: 0;
 }
