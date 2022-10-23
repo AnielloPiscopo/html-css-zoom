@@ -14,7 +14,7 @@ body{
     font-family: 'Lato' , sans-serif;
     font-size: 14px;
     overflow-y: hidden;
-    min-width: 700px;
+    min-width: 750px;
 }
 
 a{
@@ -75,16 +75,23 @@ button{
     color: white;
 }
 
-.task{
+.color_red{
+    color: red;
+}
+
+.task,
+button{
     font-size: 0.8em;
+    cursor: pointer;
+}
+
+.task:hover,
+button:hover{
+    background-color: #646465;
+    border-radius: 10%;
 }
 
 
-
-/*? Combinations */
-.color_white button{
-    color: white;
-}
 
 
 
@@ -114,9 +121,18 @@ header .task.flex{
     flex-direction: column;
 }
 
+header .task.active .icon{
+    color: #48bc07;
+}
+
 header .task .icon:not(header .more-options .icon){
     font-size: 2.3em;
     padding-bottom: 5px;
+}
+
+#end-call-btn{
+    border-radius: 0;
+    padding: 1em;
 }
 
 
@@ -130,6 +146,10 @@ header.p_fixed + main{
 /* Btns-container */
 main .btns-container{
     padding-top: 0.3em;
+}
+
+main.color_white .btns-container button{
+    color: white;
 }
 
 main .btns-container.flex{
