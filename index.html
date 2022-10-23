@@ -10,16 +10,16 @@
 
         <!--* INTERNAL LINKS -->
 
-        <!--todo Link stylesheet -->
+        <!--? Link stylesheet -->
         <link rel="stylesheet" href="css/style.css">
 
 
          <!--* EXTERNAL LINKS -->
 
-        <!--todo Font Awersome -->
+        <!--? Font Awersome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!--todo Google Fonts -->
+        <!--? Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
@@ -28,28 +28,90 @@
     <body>
         <!--* HEADER -->
         <header class="bg-color_light-black color_white p_fixed flex">
-            <div class="icons-container">
-                <i class="icon fa-solid fa-microphone"></i>
-                <i class="fa-solid fa-video"></i>
+            <!-- ?Task Icons -->
+            <div class="tasks flex">
+                <!-- Microphone -->
+                <div class="task">
+                    <i class="icon fa-solid fa-microphone"></i>
+                    <div class="task-information">Mute</div>
+                </div>
+                
+                <!-- Video -->
+                <div class="task">
+                    <i class="icon fa-solid fa-video"></i>
+                    <div class="task-information">Stop Video</div>
+                </div>
             </div>
-            <div class="icons-container"></div>
-            <div id="end-call-btn"></div>
+
+            <!-- ?Task Icons -->
+            <div class="tasks flex">
+                <!-- Invite -->
+                <div class="task">
+                    <i class="fa-sharp fa-solid fa-user-plus"></i>
+                    <div class="task-information">Invite</div>
+                </div>
+
+                <!-- Manage Partecipants -->
+                <div class="task">
+                    <i class="fa-solid fa-users"></i>
+                    <div class="task-information">Manage Partecipants</div>
+                </div>
+                
+                <!-- Polling -->
+                <div class="task">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <div class="task-information">Polling</div>
+                </div>
+
+                <!-- Share Screen -->
+                <div class="task active">
+                    <i class="fa-solid fa-share-from-square"></i>
+                    <div class="task-information">Share Screen</div>
+                </div>
+
+                <!-- Chat -->
+                <div class="task">
+                    <i class="fa-solid fa-comment"></i>
+                    <div class="task-information">Chat</div>
+                </div>
+
+                <!-- Record -->
+                <div class="task">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <div class="task-information">Record</div>
+                </div>
+
+                <!-- Breakout Rooms -->
+                <div class="task">
+                    <i class="fa-brands fa-windows"></i>
+                    <div class="task-information">Breakout Rooms</div>
+                </div>
+
+                <!-- More-->
+                <div class="task">
+                    <i class="fa-regular fa-ellipsis"></i>
+                    <div class="task-information">More</div>
+                </div>
+            </div>
+
+            <!-- ?End-call-btn -->
+            <button id="end-call-btn">End metting</button>
         </header>
 
 
 
         <!--* MAIN -->
         <main class="bg-color_black color_white">
-            <!--todo Btns-container -->
+            <!--? Btns-container -->
             <section class="flex btns-container">
-                <!--todo Speaker view btn -->
+                <!--? Speaker view btn -->
                 <button class="task bg-color_dark-grey">Speaker View</button>
 
-                <!--todo Full screen btn -->
+                <!--? Full screen btn -->
                 <button class="task bg-color_dark-grey"><i class="icon fa-solid fa-maximize"></i></button>
             </section>
             
-            <!--todo Partecipants -->
+            <!--? Partecipants -->
             <section id="partecipants" class="flex flex-centered">
                 <!-- Partecipant -->
                 <article class="partecipant p_relative">

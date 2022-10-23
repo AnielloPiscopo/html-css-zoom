@@ -1,11 +1,10 @@
 header div{
     background-color: aqua;
-    width: 5em;
     height: 100%;
 }
 /** GENERIC STYLE INFORMATIONS */
 
-/*todo Universal Selector */
+/*? Universal Selector */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -14,7 +13,7 @@ header div{
 
 
 
-/*todo HTML Tags */
+/*? HTML Tags */
 body{
     font-family: 'Lato' , sans-serif;
     font-size: 14px;
@@ -38,7 +37,7 @@ button{
 
 
 
-/*todo Classes */
+/*? Classes */
 .flex{
     display: flex;
 }
@@ -82,7 +81,7 @@ button{
 
 
 
-/*todo Combinations */
+/*? Combinations */
 .color_white button{
     color: white;
 }
@@ -91,7 +90,7 @@ button{
 
 /** SPECIFIC STYLE INFORMATIONS */
 
-/*todo Header Section */
+/*? Header Section */
 header{
     height: 60px;
 }
@@ -109,7 +108,7 @@ header.flex{
 
 
 
-/*todo Main Section */
+/*? Main Section */
 header.p_fixed + main{
     padding-bottom: 3em;
 }
@@ -139,7 +138,6 @@ main .btns-container .task:last-of-type{
 /* Partecipants */
 #partecipants{
     padding: 1.9em 0 2em;
-    overflow-y: auto;
 }
 
 #partecipants.flex{
