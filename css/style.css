@@ -34,6 +34,10 @@ button{
 
 
 /*? Classes */
+.d_none{
+    display: none;
+}
+
 .flex{
     display: flex;
 }
@@ -91,7 +95,6 @@ button{
 .task:hover,
 button:hover{
     background-color: #5b5b5d;
-    border-radius: 10%;
 }
 
 .task:active,
@@ -127,6 +130,10 @@ header.flex{
 
 header .task{
     padding:0 7px;
+}
+
+header .task:hover{
+    border-radius: 10%;
 }
 
 header .task.flex{
@@ -201,6 +208,7 @@ main .partecipant{
     height: 110px;
     width: 190px;
     margin:0 5px 10px 0;
+    cursor: zoom-in;
 }
 
 main .partecipant-infos.p_absolute{
