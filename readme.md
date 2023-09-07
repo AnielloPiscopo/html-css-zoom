@@ -1,7 +1,6 @@
 <div align="center">
 <h1 align="center">
-<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style&logo=HTML5&logoColor=white" width="50" />
-  <img src="https://img.shields.io/badge/CSS3-E34F26.svg?style&logo=CSS3&logoColor=white" alt="CSS3" width="50" />
+<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style&logo=HTML5&logoColor=white" width="100" />
 <br>HTML-CSS-ZOOM
 </h1>
 <h3>◦ Simple replication of Zoom call made with HTML & CSS</h3>
