@@ -1,6 +1,7 @@
 <div align="center">
 <h1 align="center">
-<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style&logo=HTML5&logoColor=white" width="100" />
+<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style&logo=HTML5&logoColor=white" width="50" />
+  <img src="https://img.shields.io/badge/CSS3-E34F26.svg?style&logo=CSS3&logoColor=white" alt="CSS3" width="50" />
 <br>HTML-CSS-ZOOM
 </h1>
 <h3>◦ Simple replication of Zoom call made with HTML & CSS</h3>
@@ -9,6 +10,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style&logo=HTML5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-E34F26.svg?style&logo=CSS3&logoColor=white" alt="CSS3" />
 </p>
 <img src="https://img.shields.io/github/languages/top/AnielloPiscopo/html-css-zoom?style&color=5D6D7E" alt="GitHub top language" />
 <img src="https://img.shields.io/github/languages/code-size/AnielloPiscopo/html-css-zoom?style&color=5D6D7E" alt="GitHub code size in bytes" />
@@ -31,12 +33,12 @@
 
 1. Clone the html-css-boolando repository:
 ```sh
-git clone https://github.com/AnielloPiscopo/html-css-boolando
+git clone https://github.com/AnielloPiscopo/html-css-zoom
 ```
 
 2. Change to the project directory:
 ```sh
-cd html-css-boolando
+cd html-css-zoom
 ```
 
 ## 📄 License
